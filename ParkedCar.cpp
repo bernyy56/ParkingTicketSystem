@@ -9,8 +9,6 @@ ParkedCar::ParkedCar(std::string mk, std::string mdl, std::string clr, std::stri
 
 // Destructor definition
 ParkedCar::~ParkedCar() {
-    // The destructor is trivial since we are not allocating dynamic resources.
-    // However, if future modifications to the class require it, resources should be released here.
 }
 
 // Accessor methods definition
@@ -55,7 +53,6 @@ void ParkedCar::print() const {
     std::cout << "Model: " << model << std::endl;
     std::cout << "Color: " << color << std::endl;
     std::cout << "License Number: " << licenseNumber << std::endl;
-    // If more details are added in the future, they should be printed here.
 }
 
 
