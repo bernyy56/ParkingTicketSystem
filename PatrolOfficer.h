@@ -22,10 +22,10 @@ public:
     // Accessor for officer's badge number
     int getBadgeNumber() const;
 
-    // Mutator for officer's name
+    // Update for officer's name
     void setName(const std::string& officerName);
 
-    // Mutator for officer's badge number
+    // Update for officer's badge number
     void setBadgeNumber(int badge);
 
     // Method to print officer details
