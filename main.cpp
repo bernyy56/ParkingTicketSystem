@@ -7,12 +7,12 @@
 #include <iostream>
 #include <limits> 
 
-// Function to validate a string input
+// Function to validate string input
 bool isValidString(const std::string& input) {
     return !input.empty();
 }
 
-// Function to validate an integer input
+// Function to validate integer input
 bool isValidInteger(int input) {
     return std::cin.good();
 }
