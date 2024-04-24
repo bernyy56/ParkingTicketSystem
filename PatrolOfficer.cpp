@@ -22,12 +22,12 @@ int PatrolOfficer::getBadgeNumber() const {
     return badgeNumber;
 }
 
-// Mutator for officer's name
+// Update for officer's name
 void PatrolOfficer::setName(const std::string& officerName) {
     name = officerName;
 }
 
-// Mutator for officer's badge number
+// Update for officer's badge number
 void PatrolOfficer::setBadgeNumber(int badge) {
     badgeNumber = badge;
 }
